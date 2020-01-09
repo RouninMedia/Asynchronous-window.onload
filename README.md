@@ -1,4 +1,4 @@
-# Window.onload-Everywhere
+# Asynchronous window.onload
 A function which mimics `window.onload` and `window.onDOMContentLoaded` in post-onload environments where these event listeners would not normally work.
 
 In an asynchronous script which is dynamically generated and appended to the `document.body` only at the point where the window has loaded:
